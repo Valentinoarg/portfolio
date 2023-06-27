@@ -1,0 +1,274 @@
+/* estilos generales */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Teko', sans-serif;
+}
+
+h1 {
+    color: #ff9067;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: transform .2s;
+}
+
+p {
+    font-family: 'Lexend', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #000;
+}
+
+/* estilos header */
+
+.navegation-links {
+    justify-content: space-evenly;
+    font-size: 22px;
+}
+
+.nav-link {
+    transition: transform .2s;
+}
+
+.navegation-bar {
+    padding: 20px;
+    background-color: rgb(255, 218, 158);
+    width: 100vw;
+    position: fixed;
+    box-shadow: 0px 3px 15px 4px rgb(157 129 137 / 41%);
+}
+
+/* estilos main */
+
+/* estilos PRESENTACIÓN */
+
+.container-article-presentation {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    background-color: #ede6db;
+}
+
+.img-presentation {
+    border-radius: 50px;
+}
+
+.presentation-container {
+    font-size: 25px;
+}
+
+.presentation-name {
+    color: #ff9800;
+}
+
+.presentation-sub {
+    font-size: 17px;
+}
+
+/* estilos MIS CONOCIMIENTOS*/
+
+.knowledge-section {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    background-color: #e6ffe1;
+}
+
+.knowledge-article {
+    padding-bottom: 45px;
+}
+
+.knowledge-title {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.knowledge-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.text-card {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.knowledge-card {
+    font-size: 60px;
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    min-width: 3.6em;
+    background-color: #c9f1c9;
+    color: #1E5128;
+}
+
+/* estilos QUOTE */
+
+.section-quote {
+    background-color: #fdcee3;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.article-quote {
+    text-align: center;
+}
+
+.icon-quote {
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+
+.text-quote {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.quote-author {
+    display: inline-block;
+    font-size: 35px;
+    padding: 10px;
+    padding-bottom: 3px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #5d2417;
+    box-shadow: 0px 6px 10px 3px #73304f;
+}
+
+/* estilos PROYECTOS*/
+
+.section-container-text {
+    background-color: #ede6db;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.article-project {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-article-project {
+    font-size: 45px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section-container-projects {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.img-article-project {
+    width: 250px;
+}
+
+.container-article-project {
+    transition: transform .2s;
+}
+
+/* estilos footer */
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 218, 158);
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.footer-links {
+    gap: 50px;
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+
+.footer-link,
+.footer-icon{
+    transition: transform .2s;
+}
+
+.footer-icons {
+    display: flex;
+    font-size: 30px;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-icon {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.footer-signature {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-name {
+    color: #950101;
+}
+
+/* HOVER */
+
+/* HEADER NAV */
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+.knowledge-card:hover {
+    background-color: #1E5128;
+    color: #c9f1c9;
+}
+
+.quote-author:hover {
+    background-color: #8d4925;
+    color: #fff;
+}
+
+.container-article-project:hover {
+    transform: scale(1.3);
+}
+
+.footer-link:hover {
+    transform: scale(1.2);
+}
+
+.footer-icon:hover {
+    transform: scale(1.2);
+}
