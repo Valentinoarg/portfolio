@@ -64,16 +64,17 @@ a {
 /* estilos PRESENTACIÓN */
 
 .container-article-presentation {
-    padding-top: 150px;
+    padding-top: 190px;
+    padding-bottom: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 80px;
     background-color: #ede6db;
 }
 
 .img-presentation {
     border-radius: 50px;
+    width: 700px;
 }
 
 .presentation-container {
@@ -168,8 +169,8 @@ a {
 
 .section-container-text {
     background-color: #ede6db;
-    padding-top: 20px;
-    padding-bottom: 70px;
+    padding-top: 90px;
+    padding-bottom: 120px;
 }
 
 .article-project {
